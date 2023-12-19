@@ -1,0 +1,14 @@
+
+spring:
+  main:
+    web-application-type: none
+  jpa:
+    database-platform: org.hibernate.community.dialect.SQLiteDialect
+    hibernate:
+      ddl-auto: update
+
+database:
+  driverClassName: org.sqlite.JDBC
+  url: "jdbc:sqlite:data.db"
+  username: sa
+  password: sa
